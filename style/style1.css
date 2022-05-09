@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Poppins:wght@800&family=Square+Peg&display=swap');
+body{
+    background-color: rgb(86, 85, 85);
+}
+.phone{
+    width: 414px;
+    height: 896px;
+    margin: auto;
+    background-color: antiquewhite;
+    position: relative;
+
+}
+.bottom_wrap{
+    width: 414px;
+    height: 374px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+    border-radius: 40px 40px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.nav{
+    width: 32px;
+    margin-top: 34px;
+}
+h1{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 41px;
+    margin-bottom: 0px;
+}
+.buy{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 41px;
+    color: rgba(18, 18, 18, 0.6);
+    margin-top: 28px;
+
+}
+.explore{
+    width: 358px;
+    height: 75px;
+    background: #0DB7B7;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.explore>h2{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 0;
+}
